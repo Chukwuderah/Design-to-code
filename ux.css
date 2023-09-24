@@ -73,10 +73,6 @@ form {
     color: #ffffff;
 }
 
-a.active {
-    color: orange;
-}
-
 .center, .par {
     text-align: left;
 }
@@ -107,9 +103,9 @@ input::placeholder {
 .show-password {
     width: 35px;
     position: absolute;
-    left: 90%;
+    left: 93%;
     top: 50%;
-    transform: translate(-90%, -50%);
+    transform: translate(-93%, -50%);
     cursor: pointer;
 }
 
