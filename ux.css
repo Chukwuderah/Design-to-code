@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap');
+
+body {
+    background-color:rgb(1, 1, 37);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway';
+    max-width: 100%;
+    max-height: 570px;
+}
+
+@media screen and (max-width: 768px) {
+    .icon-text-container {
+        display: block;
+        text-align: center; 
+    }
+}
+
+.left {
+    background-color: #424769;
+    box-shadow: 0 0 1px 1px darkslateblue;
+    border-radius: 14px 0px 0px 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 40%;
+}
+
+form {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.image {
+    background-image: url(https://img.freepik.com/premium-photo/mountain-range-is-surrounded-by-clouds-fog_802668-526.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    flex-basis: 50%;
+    border-radius: 0px 19px 19px 0px;
+    font-size: 24px;
+}
+
+.image, .left {
+    flex: 1;
+    height: 570px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav li a {
+    color: #676f9d;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ffffff;
+}
+
+a.active {
+    color: orange;
+}
+
+.center, .par {
+    text-align: left;
+}
+
+.center {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 2px;
+}
+
+.par {
+    font-size: small;
+    width: 350px;
+    min-width: 350px;
+    max-width: 500px;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #ffffff;
+    padding: 5px;
+}
+
+.show-password {
+    width: 35px;
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-90%, -50%);
+    cursor: pointer;
+}
+
+.password-input { 
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+.password-input::after {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+#email, #password {
+    display: flex;
+    align-items: center;
+    border: 1px solid #676f9d;
+    background-color: #676f9d;
+    color: #ffffff;
+    width: 100%;
+    min-width: 70%;
+    max-width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    margin: 2px 0;
+    border-left: 2px solid #f9b17a;
+    padding: 10px;
+}
+
+#email {
+    margin-bottom: -7px;
+}
+
+#password {
+    margin-top: -7px;
+}
+
+#check {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #424769;
+    padding-left: 5px;
+}
+
+a {
+    color: midnightblue;
+}
+
+a:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.custom-checkbox-label {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin: 10px 0;
+    width: 350px;
+    max-width: 500px;
+    height: 20px;
+}
+
+.custom-checkbox {
+    display: none;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    opacity: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 15px;
+    border: 2px solid #f9b17a;
+    background-color: #ffffff;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f9b17a;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.checkbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 3%;
+    height: 70%;
+    /*  border: 1px solid #f9b17a;
+    border-radius: 3px;
+    padding-right: 5px; */
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkbox-overlay {
+    background-color: transparent;
+    border: 2px solid #f9b17a;
+}
+
+.submit-button {
+    padding: 6px;
+    margin: 7px;
+    color: #424769;
+    background-color: #f9b17a;
+    border: 2px solid #f9b17a;
+    box-shadow: 0 0 5px 4px #f9b17a;
+    border-radius: 3px;
+    align-items: flex-start;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.submit-button:hover {
+    color: #ffffff;
+}
+
+.icon-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon-1, .icon-2 img {
+    height: auto;
+    margin-right: 10px;
+    left: 70%;
+    top: 30%;
+    transform: translateX(-220px);
+    cursor: pointer;
+}
+
+.icon-2 {
+    width: 3px;
+}
