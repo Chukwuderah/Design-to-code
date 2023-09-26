@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap');
 
 body {
-    background-color:rgb(1, 1, 37);
+    background-color: #0e1227;
 }
 
 .container {
@@ -12,14 +12,15 @@ body {
     max-height: 570px;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
+@media (max-width: 600px) {
+    body {
         display: block;
         text-align: center;
-        min-width: auto;
         max-height: fit-content;
+        min-width: 600px;
     }
-}
+
+ }
 
 .left {
     background-color: #424769;
