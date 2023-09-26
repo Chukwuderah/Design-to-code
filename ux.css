@@ -12,11 +12,11 @@ body {
     max-height: 570px;
 }
 
-@media (max-width: 4s00px) {
+@media (max-width: 400px) {
     body {
         display: block;
         text-align: center;
-        max-height: max-content;
+        max-height: 100px;
         min-width: 600px;
     }
 
