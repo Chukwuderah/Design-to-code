@@ -15,7 +15,7 @@ body {
 @media (max-width: 400px) {
     body {
         display: block;
-        text-align: center;
+        /* text-align: center; */
         max-height: 100px;
         min-width: 600px;
     }
@@ -160,6 +160,7 @@ input[type="text"] {
     font-size: 14px;
     color: #ffffff;
     background-color: #424769;
+    margin-bottom: 15px;
 }
 
 a {
