@@ -72,6 +72,10 @@ form {
     text-decoration: none;
 }
 
+.nav li a.active {
+    border-bottom: 2px solid #f9b17a;
+}
+
 .nav a:hover {
     color: #ffffff;
 }
@@ -144,12 +148,12 @@ input[type="text"] {
     border: 0;
     outline: 0;
     margin: 2px 0;
-    border-left: 2px solid #f9b17a;
     padding: 10px;
 }
 
 #email {
     margin-bottom: -7px;
+    border-left: 2px solid #f9b17a;
 }
 
 #password {
@@ -160,7 +164,7 @@ input[type="text"] {
     font-size: 14px;
     color: #ffffff;
     background-color: #424769;
-    margin-bottom: 15px;
+    margin: auto;
 }
 
 a {
