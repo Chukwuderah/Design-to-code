@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap');
+
+body {
+    background-image: url("https://i.pinimg.com/736x/11/59/cc/1159cca83333696b2ce69ee2831c8601.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 25%;
+    max-height: 50%;
+    font-family: 'Raleway';
+    padding: 40px auto;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+
+div.top {
+    margin-bottom: 10px;
+}
+
+h2, .icon-1 {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: unset;
+    margin-left: 15px;
+    padding: 10px auto;
+}
+
+img.icon-1 {
+    height: 20px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 180px;
+    transform: translateY(30px);
+}
+
+hr {
+    color: #fff;
+    height: 2px;
+    border: 2px thin rgb(230, 227, 227);
+    transform: translateY(-25px);
+    margin: 0%;
+}
+
+div.Second {
+    background-color: rgb(222, 228, 236);
+    color: rgb(51, 51, 51);
+    width: 100%;
+    max-width: 100%;
+    max-height: 100px;
+    transform: translateY(-25px);
+}
+
+.icon {
+    height: 20px;
+    padding: 12px;
+    transform: translateY(-10px);
+}
+
+span h2 {
+    color: black;
+}
+
+div.icon, span.text {
+    display: inline-block;
+}
+
+span.text {
+    margin: -60px 10px 2px 30px;
+    font-size: 12px;
+}
+
+p {
+    transform: translateY(-20px);
+    margin-left: 16px;
+}
+
+p.done, p.up {
+    display: inline-block;
+    color: lightseagreen;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+img.plus {
+    margin: -20px auto 0px 125px;
+    cursor: pointer;
+}
+
+.container, .second-container {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.second-container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 25%;
+    max-height: 50%;
+    font-family: 'Raleway';
+    padding: 40px auto;
+    border-radius: 20px;
+}
