@@ -74,6 +74,10 @@ nav li a:hover {
     color: #ffffff;
 }
 
+nav li a.active {
+    border-bottom: 2px solid #f9b17a;
+}
+
 h1 {
     font-size: 30px;
     font-style: italic;
@@ -172,6 +176,13 @@ a {
     text-decoration: none;
 }
 
+span.login-option {
+    padding-left: 3px;
+    font-size: 12px;
+    line-height: 25px;
+    vertical-align: 20px;
+}
+
 div.login-with-google,
 div.login-with-facebook {
     display: flex;
@@ -187,9 +198,7 @@ div.login-with-google {
     margin-bottom: 13px;
 }
 
-span.login-option {
-    padding-left: 3px;
-    font-size: 12px;
-    line-height: 25px;
-    vertical-align: 20px;
+div.login-with-facebook:hover,
+div.login-with-google:hover {
+    background-color: #0e1227;
 }

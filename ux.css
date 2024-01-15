@@ -163,7 +163,15 @@ input[type="text"] {
     vertical-align: 5px;
 }
 
-a {
+span a {
+    color: #f9b17a;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.icon-container a {
+    display: flex;
+    flex-direction: row;
     color: midnightblue;
     text-decoration: none;
 }
@@ -254,7 +262,6 @@ input[type="checkbox"] {
     left: 70%;
     top: 30%;
     transform: translateX(-220px);
-    cursor: pointer;
 }
 
 .icon-3 {
