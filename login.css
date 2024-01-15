@@ -176,8 +176,6 @@ div.login-with-google,
 div.login-with-facebook {
     display: flex;
     align-items: center;
-    /* justify-content: center;
-    gap: 3px; */
     border: 1px solid #676f9d;
     border-radius: 10px;
     margin: 2px auto;
@@ -193,4 +191,5 @@ span.login-option {
     padding-left: 3px;
     font-size: 12px;
     line-height: 25px;
+    vertical-align: 20px;
 }

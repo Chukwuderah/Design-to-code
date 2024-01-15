@@ -70,12 +70,12 @@ nav li a {
     text-decoration: none;
 }
 
-/* nav li a.active {
-    border-bottom: 2px solid #f9b17a;
-} */
-
 nav a:hover {
     color: #ffffff;
+}
+
+nav li a.active {
+    border-bottom: 2px solid #f9b17a;
 }
 
 .center,
@@ -160,6 +160,7 @@ input[type="text"] {
     background-color: #424769;
     padding-bottom: 20px;
     margin: auto;
+    vertical-align: 5px;
 }
 
 a {
